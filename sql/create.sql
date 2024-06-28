@@ -1,0 +1,11 @@
+CREATE DATABASE XML_DocumentsDB;
+GO
+
+USE XML_DocumentsDB;
+GO
+
+CREATE TABLE XML_Documents(
+	id INT IDENTITY PRIMARY KEY,
+	Document XML
+);
+GO
